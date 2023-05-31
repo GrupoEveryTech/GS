@@ -1,25 +1,28 @@
+
+body{
+    background-color: #325d37;
+
+}
+
+
 h1 {
- 
-    background-color: beige;
-    margin: 0;
-    padding: 0;
-    display:inline;
-
+    background-color:lightgreen;
 }
 
 
-h2 {
+.cabecalho img {
 
-   background-color: beige;
-    display:inline;
- 
+ width: 700px;
+
 }
 
-.conteudo img{
-
-    width: 400px;
+.content img {
+    width: 200px;
 }
 
+#n {
+    background-color:lightgreen;
+}
 
 
 
