@@ -3,6 +3,7 @@ body{
   background-image: url(../img/img02.jpg);
   background-repeat: no-repeat;
   background-size:cover;
+  background-size: center;
 
     }
 
@@ -31,6 +32,10 @@ h1 {
     width: 300px;
 }
 
+.rodape img {
+   width: 40px; 
+}
+
 .rodape ol {
 
     background-color: rgb(168, 231, 164);
@@ -39,10 +44,20 @@ h1 {
   background-color: white;
 }
 
-.section {
+#center h2 {
     display: flex;
     align-items: center;
     justify-content: center;
     height: 100vh;
-    margin: 0;
+   
+    
 }
+
+#center p {
+    text-align: center;
+}
+
+.conteudo img {
+    width: 200px;
+}
+  
