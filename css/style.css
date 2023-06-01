@@ -1,8 +1,7 @@
 
 body{
-    background-color: #325d37;
-
-}
+    background-color: #6ddd7af8;
+    }
 
 
 h1 {
@@ -24,18 +23,7 @@ h1 {
     background-color:lightgreen;
 }
 
-.background-image {
-    background-image: url("./download\ \(1\).jpg");
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 1500px;
-  }
-  
-  .content {
-    text-align: center;
-    color: #fff;
-  }
+#imagem {
+
+    width: 500px;
+}
