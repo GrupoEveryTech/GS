@@ -23,9 +23,6 @@ h1 {
     width: 200px;
 }
 
-#n {
-    background-color:lightgreen;
-}
 
 #imagem {
 
@@ -34,27 +31,11 @@ h1 {
 
 .rodape img {
    width: 40px; 
+   background-color: gray;
 }
 
-.rodape ol {
-
-    background-color: rgb(168, 231, 164);
-}
 .rodape h3 {
   background-color: white;
-}
-
-#center h2 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-   
-    
-}
-
-#center p {
-    text-align: center;
 }
 
 .conteudo img {
