@@ -1,6 +1,9 @@
 
 body{
-    background-color: #6ddd7af8;
+  background-image: url(../img/img02.jpg);
+  background-repeat: no-repeat;
+  background-size:cover;
+
     }
 
 
@@ -25,5 +28,21 @@ h1 {
 
 #imagem {
 
-    width: 500px;
+    width: 300px;
+}
+
+.rodape ol {
+
+    background-color: rgb(168, 231, 164);
+}
+.rodape h3 {
+  background-color: white;
+}
+
+.section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
 }
