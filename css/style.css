@@ -42,3 +42,18 @@ h1 {
     width: 200px;
 }
   
+.interno img {
+    width: 300px;
+}
+
+.interno p {
+    background-color: white;
+}
+
+.interno h2 {
+   text-align: center;
+}
+
+.interno p {
+    text-align: center;
+}
