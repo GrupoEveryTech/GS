@@ -1,0 +1,56 @@
+
+body{
+  background-image: url(../img/img02.jpg);
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-size: center;
+
+    }
+
+
+h1 {
+    background-color:rgb(190, 213, 190);
+}
+
+
+.cabecalho img {
+
+ width: 700px;
+
+}
+
+.content img {
+    width: 200px;
+}
+
+
+#imagem {
+
+    width: 300px;
+}
+
+.rodape img {
+   width: 40px; 
+   background-color: gray;
+}
+
+.rodape h3 {
+  background-color: white;
+}
+
+.conteudo img {
+    width: 200px;
+}
+  
+.interno img {
+    width: 300px;
+}
+
+
+.interno h2 {
+   text-align: center;
+}
+
+.interno p {
+    text-align: center;
+}

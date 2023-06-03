@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/login.js" defer></script>
+</head>
+<body>
+  <body>
+
+    <header class="cabecalho">
+     <h1>Grupo Every Tech</h1>
+   
+    <nav id="navegador">
+    <a class="menu" href="./index.html">Home</a>
+    <a class="menu" href="./agricultura.html">Agricultura Sustentavel</a>
+    <a class="menu" href="./IA.html">Inteligência Artifical na Agricultura</a>
+    <a class="menu" href="./cultivo.html">Cultivos Eficientes</a>
+    <a class="menu" href="./form.html">Realize seu cadastro</a>
+    <nav>
+   
+   </header>
+
+    <div>
+        <form action="index.html" method="POST" onsubmit="return true">
+            <fieldset>
+                <legend>Complete o campo abaixo:</legend>
+                <div>
+                    <label for="idNm">Nome</label>
+                    <input type="text" name="txtNm" id="idNm" placeholder="Nome" value="">
+                </div>
+    
+                <div>
+                  <label for="idsobNm">Sobrenome</label>
+                  <input type="Sobnome" name="txtsobNm" id="idsobNm" placeholder="Sobrenome" value="">
+                </div>
+    
+                <div>
+                    <label for="idEmail">Email</label>
+                    <input type="email" name="txtEmail" id="idEmail" placeholder="Email" value="">
+                </div>
+    
+                <div>
+                  <label for="idpassword">Senha</label>
+                  <input type="password" name="txtsenha" id="idpassword" placeholder="Senha" value="">
+                </div>
+    
+                <div>
+                  <label for="idconfirmsenha">Confirme a Senha</label>
+                  <input type="password" name="txtconfirmsenha" id="idpassword" placeholder="Confirme sua Senha" value="">
+                </div>
+    
+                <div>
+                  <label for="idEndereco">Endereco</label>
+                  <input type="Endereco" name="txtEndereco" id="idEndereco" placeholder="Digite seu endereço" value="">
+                </div>
+    
+                <div>
+                  <label for="idcpf">CPF</label>
+                  <input type="cpf" name="txtcpf" id="idcpf" placeholder="Digite seu CPF sem pontos e traços" value="">
+                </div>
+    
+                <div>
+                  <label for="idRg">RG</label>
+                  <input type="Rg" name="txtRg" id="idRg" placeholder="Digite seu RG sem ponto e traços" value="">
+                </div> 
+
+                <div>
+                    <label for="idgenero">Gênero</label>
+                    <input type="genero" name="txtgenero" id="idgenero" placeholder="Digite seu genero" value="">
+                </div>
+
+                <div>
+                  <label for="idnmPai">Nome do Pai</label>
+                  <input type="nmPai" name="txtnmPai" id="idnmPai" placeholder="Digite o nome do seu Pai" value="">
+                </div>
+
+                <div>
+                    <label for="idnmMae">Nome da Mãe</label>
+                  <input type="Mae" name="txtnmMae" id="idnmMae" placeholder="Digite o nome de sua Mãe" value="">
+                </div>
+    
+                <div>
+                    <input type="submit" value="Enviar">
+                    <input type="reset" value="Limpar">
+                </div>
+            </fieldset>
+        </form>
+    </div>
+    
+</body>
+</html>
