@@ -4,44 +4,110 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projeto GS</title>
+    <link href="https://fonts.googleapis.com/css2?family=Geologica&display=swap" rel="stylesheet">
+    <title>Every Tech Solutions</title>
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+          
 </head>
 
 <body>
 
  <header class="cabecalho">
-  <h1>Grupo Every Tech, Seja bem vindo ao nosso Projeto!</h1>
+    <img src="./img/logo.png" alt="logotipo">
 
- <nav id="navegador">
- <a class="menu" href="./index.html">Home</a>
- <a class="menu" href="./agricultura.html">Agricultura Sustentavel</a>
- <a class="menu" href="./IA.html">Inteligência Artifical na Agricultura</a>
- <a class="menu" href="./cultivo.html">Cultivos Eficientes</a>
- <a class="menu" href="./form.html">Realize seu cadastro</a>
- <nav>
+      <nav>
+        <ul>
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./agricultura.html">Agricultura Sustentável</a></li>
+          <li><a href="./IA.html">Inteligência Artifical na Agricultura</a></li>
+          <li><a href="./cultivo.html">Cultivos Eficientes</a></li>
+          <li><a href="./form.html">Realize seu Cadastro</a></li>
+        </ul>
+      <nav>  
 
 </header>
 
 <main class="conteudo">
   <h2>Venha Conhecer mais sobre!!!</h2>
-  <div>
- <a href="./agricultura.html"><img src="./img/img02.jpg" alt="imagem da lampada"></a>
- <p>Agricultura Sustentavel</p>
- <a href="./IA.html"><img src="./img/img04.jpg" alt="imagem robo"></a>
- <p>Inteligência Artifical na Agricultura</p>
- <a href="./cultivo.html"><img src="./img/img05.png" alt="imagem cultivo"></a>
- <p>Cultivos Eficientes</p>
+  <div class="slides">
+    <input type="radio" name="radio-btn" id="radio1" checked>
+    <input type="radio" name="radio-btn" id="radio2">
+    <input type="radio" name="radio-btn" id="radio3">
+
+    <div class="slide first">
+      <a href="./agricultura.html"><img src="./img/img02.jpg" alt="imagem da lampada"></a>
+    </div>
+
+    <div class="slide">
+      <a href="./IA.html"><img src="./img/img04.jpg" alt="imagem robo"></a>
+    </div>
+
+    <div class="slide">
+      <a href="./cultivo.html"><img src="./img/img05.png" alt="imagem cultivo"></a>
+    </div>
+
+    <div class="navigation-auto">
+      <div class="auto-btn1"></div>
+      <div class="auto-btn2"></div>
+      <div class="auto-btn3"></div>
+    </div>
+  </div>
+
+  <div class="manual-navigation">
+    <label for="radio1" class="manual-btn"></label>
+    <label for="radio2" class="manual-btn"></label>
+    <label for="radio3" class="manual-btn"></label>
+  </div>
+
 </main> 
  
+<footer>
+  <div class="rodape">
+    <ul>
+      <h3>Every Tech Solutions</h3>
+      <p> Somos um grupo, composto por 5 alunos estudantes do curso Analise e Desenvolvimento de Sistemas na FIAP. Nosso objetivo é criar soluções de grande complexibilidade para empresas.</p>
+      <div class="redes-sociais">
+        <img src="./img/github-original.svg" alt="Logo Github">
+        <img src="./img/twitter-original.svg" alt="Logo Twitter">
+        <img src="./img/linkedin-original.svg" alt="Logo Linkedin">
+      </div>
+    </ul>
 
+    <ul>
+      <h3>Link</h3>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="agricultura.html">Agricultura Sustentável</a></li>
+      <li><a href="IA.html">Inteligência Artifical na Agricultura</a></li>
+      <li><a href="cultivo.html">Cultivos Eficientes</a></li>
+      <li><a href="form.html">Realize seu Cadastro</a></li>
+    </ul>
 
-<footer class="rodape">
+    <ul>
+      <h3>Suporte</h3>
+      <li><a href="#">FAQ</a></li>
+      <li><a href="#">Como Funciona</a></li>
+      <li><a href="#">Contato</a></li>
+    </ul>
+
+    <ul>
+      <h3>Contate-nos</h3>
+      <li>
+        <p>everytech.fiap@gmail.com</p>
+      </li>
+      <li>
+        <p>Brasil</p>
+      </li>
+    </ul>
+  </div>
+</footer>
+
+<!-- <footer class="rodape">
   <h2 id="titleMedia">Nossas Redes Sociais:</h2>
   <nav>
-      <a href="https://github.com/GrupoEveryTech/GS" target="_blank"><img src="./img/github.png" alt="Logo do Github"></a>
-      <a href="" target="_blank"><img src="./img/youtube.jpg" alt="logo do youtube"></a>
-      <a href="https://github.com/" target="_blank"><img src="" alt=""></a>
+    <a href="https://github.com/GrupoEveryTech/GS" target="_blank"><img src="./img/github.png" alt="Logo do Github"></a>
+    <a href="" target="_blank"><img src="./img/youtube.jpg" alt="logo do youtube"></a>
+    <a href="https://github.com/" target="_blank"><img src="" alt=""></a>
   </nav>
   
   <a href="./form.html">Clique para realizar o seu Cadastro</a>
@@ -53,7 +119,9 @@
     <ol> RAFAEL MUNIZ // RM:550697</ol>
     <ol> LEONARDO BARRAL // RM:551472</ol>
   </div>
-</footer>
+</footer> -->
+
+<script src="./js/script.js"></script>
     
  </body>
   </html>

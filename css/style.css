@@ -1,56 +1,71 @@
+@import url("./cabecalho.css");
+@import url("./conteudo.css");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'Geologica', sans-serif;
+    font-size: 62.7%;
+}
+
+input{
+    display: none;
+}
 
 body{
-  background-image: url(../img/img02.jpg);
-  background-repeat: no-repeat;
-  background-size:cover;
-  background-size: center;
+    background-color: #eae7e2;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
 
-    }
+/* footer */
+footer{
+    background-color: #dcd3ba;
+}
 
+.rodape{
+    display: flex;
+    max-width: 100%;
+    justify-content: space-between;
+}
 
-h1 {
-    background-color:rgb(190, 213, 190);
+.rodape ul{
+    width: 25%;
+    text-align: justify;
+    padding: 2%;
+    margin-left: -1%;
+}
+
+.rodape ul li > a{
+    color: black;
+}
+
+.rodape h3{
+    margin-bottom: 16px;
+}
+
+.rodape .redes-sociais img{
+    margin-right: 10px;
+    width: 8%;
+    height: auto;
+}
+
+.rodape .redes-sociais{
+    width: auto;
+}
+
+.rodape ul > p{
+    margin-bottom: 38px;
+}
+
+.rodape li{
+    list-style: none;
+    margin: 10px 0;
 }
 
 
-.cabecalho img {
-
- width: 700px;
-
-}
-
-.content img {
-    width: 200px;
-}
-
-
-#imagem {
-
-    width: 300px;
-}
-
-.rodape img {
-   width: 40px; 
-   background-color: gray;
-}
-
-.rodape h3 {
-  background-color: white;
-}
-
-.conteudo img {
-    width: 200px;
-}
-  
-.interno img {
-    width: 300px;
-}
-
-
-.interno h2 {
-   text-align: center;
-}
-
-.interno p {
-    text-align: center;
-}
