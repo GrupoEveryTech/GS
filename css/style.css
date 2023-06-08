@@ -33,6 +33,7 @@ footer{
     max-width: 100%;
     justify-content: space-between;
     font-size: 1.4rem;
+    margin: 10px;
 }
 
 .rodape ul{
