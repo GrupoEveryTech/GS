@@ -82,6 +82,13 @@ footer{
     margin-bottom: 20px;
 }
 
+.interno img{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin: 10px 0;
+}
+
 .conteudo img{
     width: 100%;
     height: auto;
