@@ -78,6 +78,10 @@ footer{
     font-size: 1.6rem;
 }
 
+.interno h2{
+    margin-bottom: 20px;
+}
+
 .conteudo img{
     width: 100%;
     height: auto;
