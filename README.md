@@ -1,0 +1,9 @@
+# GS
+
+INTEGRANTES DO GRUPO
+
+RM: 551472 | Leonardo Ribeiro Barral
+RM: 550697 | Rafael Marcondes Muniz
+RM: 552029 | Renato Cruz Ribeiro Atanes
+RM: 551903 | Leandro Andrade Silva
+RM: 551617 | Lucas Fonseca Ferraz Coutinho
