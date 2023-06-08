@@ -92,13 +92,13 @@ footer{
 
 .interno img{
     width: 100%;
-    height: auto;
+    height: 60%;
     border-radius: 10px;
     margin: 10px;
 }
 
 .conteudo img{
-    height: auto;
+
     border-radius: 10px;
     box-shadow: 8px 8px 5px 0px rgba(112, 109, 109, 0.75);
     margin: 10px;
