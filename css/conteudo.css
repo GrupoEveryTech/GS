@@ -6,6 +6,7 @@
     height: auto;
     overflow: hidden;
     padding: 2% 5% 2% 0;
+    font-size: 1.6rem;
 }
 
 .slides{
@@ -23,7 +24,6 @@
     position: relative;
     border-radius: 10px;
     transition: 1s;
-
 }
 
 .slides img{

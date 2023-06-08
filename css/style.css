@@ -69,4 +69,17 @@ footer{
     margin: 10px 0;
 }
 
+.interno{
+    margin: 0 auto;
+    width: 870px;
+    height: auto;
+    overflow: hidden;
+    padding: 2% 5% 2% 0;
+    font-size: 1.6rem;
+}
 
+.conteudo img{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
