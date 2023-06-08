@@ -9,6 +9,10 @@
     font-size: 1.6rem;
 }
 
+.conteudo p{
+    padding: 1.5% 0;
+}
+
 .slides{
     display: flex;
     width: 600%;
