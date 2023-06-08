@@ -86,6 +86,10 @@ footer{
     margin-bottom: 20px;
 }
 
+.interno p{
+    padding-bottom: 4%;
+}
+
 .interno img{
     width: 100%;
     height: auto;

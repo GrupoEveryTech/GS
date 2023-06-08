@@ -9,6 +9,8 @@
     font-size: 1.6rem;
 }
 
+
+
 .conteudo p{
     padding: 1.5% 0;
 }
@@ -62,7 +64,8 @@
 }
 
 .conteudo h2{
-    padding-top: 3rem;
+    padding-top: 3%;
+    padding-bottom: 2%;
     font-size: 28px;
 }
 
