@@ -78,8 +78,20 @@ footer{
     font-size: 1.6rem;
 }
 
+.interno h2{
+    margin-bottom: 20px;
+}
+
+.interno img{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin: 10px;
+}
+
 .conteudo img{
     width: 100%;
     height: auto;
     border-radius: 10px;
+    box-shadow: 8px 8px 5px 0px rgba(112, 109, 109, 0.75);
 }
