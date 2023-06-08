@@ -78,8 +78,16 @@ footer{
     font-size: 1.6rem;
 }
 
+.interno h4{
+    padding-bottom: 1%;
+}
+
 .interno h2{
     margin-bottom: 20px;
+}
+
+.interno p{
+    padding-bottom: 4%;
 }
 
 .interno img{
